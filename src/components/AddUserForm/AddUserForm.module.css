@@ -1,0 +1,41 @@
+.form textarea, input:not([type="checkbox"]){
+    width: 90%;
+    padding: 15px 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    border: 0;
+    background-color: #222;
+    color: #fff;
+    outline: none;
+    font-size: 16px;
+}
+
+
+.formButton { 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 5px;
+    background-color: #222;
+    border: 0;
+    color: #fff;
+    width: 92%;
+    font-weight: 300;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+.formButton:hover {
+    transform: scale(1.1);
+}
+
+.formCheckbox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+@media screen and (max-width: 425px) {
+.form {
+    width: 100%;
+}
+}

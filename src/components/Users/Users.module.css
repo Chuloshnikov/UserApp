@@ -1,0 +1,55 @@
+.user img {
+    width: 100px;
+    height:100px;
+}
+.user {
+    margin-bottom: 50px;
+    padding: 5px 15px;
+    background-color: rgb(95, 177, 177);
+    text-shadow: 2px 0px 12px rgba(150, 255, 246, 1);
+}
+
+.user .deleteIcon {
+    margin-top: 10px;
+    float: right;
+    color:rgb(56, 238, 238);
+    cursor: pointer;
+    transform: scale(2);
+    transition: all 0.3s ease 0s;
+}
+
+.user .editIcon {
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+    color:rgb(56, 238, 238);
+    cursor: pointer;
+    transform: scale(2);
+    transition: all 0.3s ease 0s;
+}
+
+.user .deleteIcon:hover,  
+.user .editIcon:hover {
+    opacity: 0.5;
+}
+
+.user form input,
+.user form textarea,
+.user form button {
+    background-color: #1d6575;
+}
+
+.user form button:hover {
+    transform: scale(1.03);
+}
+
+@media screen and (max-width: 425px){
+    .user {
+        margin-bottom: 20px;
+        padding: 0px 10px;
+    } 
+
+    .users {
+
+    }
+}

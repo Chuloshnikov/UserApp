@@ -1,0 +1,66 @@
+main {
+    margin: 50px 100px;
+    width: 50%;
+    float: left;
+}
+
+aside {
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 5%;
+    float: left;
+
+}
+
+
+@media screen and (max-width: 915px) {
+    aside {
+      margin-right: 20px;
+      margin-left: -20px;
+    }
+  }
+
+
+  @media screen and (max-width: 769px) {
+    main {
+        margin-left: 70px;
+    }
+ 
+  }
+
+
+@media screen and (max-width: 542px) {
+    main {
+        max-width: 100%;
+        float: none;
+    }
+    aside {
+        width: 70%;
+        margin: 20px 20px;
+        float: none;
+    
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    main {
+        float: none;
+        width: 95%;
+        float: none;
+        margin: 10px 10px;
+    }
+
+    aside {
+      padding-left: 42px;
+    }
+  }
+
+  @media screen and (max-width: 325px) {
+    main {
+        width: 93%;
+    }
+
+    aside {
+      padding-left: 30px;
+    }
+  }
